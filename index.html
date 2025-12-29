@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<style>
+    #can {
+    width: auto;
+    height: 20vw;
+    display: block; /* removes inline padding weirdness */
+    }
+ </style>
+</head>
+
+<body>
+<h1>.</h1>
+<button id='lighton' onclick="lighton()">lighton</button>
+<h1>.</h1>
+<button id='lightoff' onclick="lightoff()">lightoff</button>
+<p id='led'>LED is {state}</p>
+<p id='temp'>Temperature is...</p>
+<p id='adc'>adc is...</p>
+<canvas id='can' height="1000", width="1000"></canvas>
+</body>
+<script src='./main.js'></script>
+</html>
